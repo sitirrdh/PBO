@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(36, 20, 104);
+    color: #fff;
+    font-family: Cambria;
+}
+.header {
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.about_me {
+    display: flex;
+    align-items: center;
+    margin-right: 100px ;
+}
+
+.about_me img {
+    max-width: 50%;
+    height: auto;
+    margin-right: 1rem;
+    margin-left: 100px;
+    border-radius: 200px;
+}
+
+.about_me li {
+  float: none;
+}
+.border {
+    border: 0px solid #333;
+    padding: 1rem;
+    text-align: justify;
+}
+  
+.border h1 {
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+.pendidikan{
+    border: 0px solid #333;
+    padding: 1rem;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.pendidikan li { 
+  float: none;
+}
+
+.pengalaman{
+    border: 0px solid #333;
+    padding: 1rem;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.pengalaman li {
+  float: none;
+}
+.contact{
+    border: 0px solid #333;
+    padding: 1rem;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.contact li {
+ float: left;
+ padding: 10px 10px;
+ 
+}
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ec0ca9;
+}
+li{
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #4065d2a2;
+}
+
+.video {
+    border: 0px solid #333;
+    padding: 1rem;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.lyrics {
+    border: 0px solid #333;
+    padding: 1rem;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.form {
+    background-color:rgb(36, 20, 104);
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #4065d2a2;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+footer {
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #ec0ca9;
+    color: #fff;
+  }
